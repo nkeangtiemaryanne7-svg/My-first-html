@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> registration form </title>
+    </head>
+    <body>
+        <h1 style="font-weight: bold; color: aqua;"> The student registration form </h1>
+        <form action="">
+            <label for="name" aria-required="true">Full name</label><br>
+            <input type="text" name="Full name" placeholder="Full name"><br><br>
+            <label for="email" aria-required="true">email address</label><br>
+            <input type="text" name="email"><br><br>
+           
+            <label for="password" aria-required="true">password</label><br>
+            <input type="password" name="password"><br><br>
+            <label for= "phonenumber" aria-required="true"> phonenumber</label><br>
+            <input type="number" name="phonenumber"><br><br>
+            <label for= "text" aria-required="true"> My Website</label><br>
+            <input type="text" name="Website"><br><br>
+            <label for= "text" aria-required="true"> search courses</label><br>
+            <input type="text" name="courses"><br><br>
+            <label for= "text" aria-required="true">age</label><br>
+            <input type="text" name="age"><br><br>
+            <label for= "text" aria-required="true">student satisfaction Level</label><br>
+            <input type="range" name="range"><br><br>
+            
+            <label for= "text" aria-required="true">favorite color</label><br>
+            <input type="color" name="range"><br><br>
+
+            <label>date information</label><br>
+           <label for= "date" aria-required="true">Date of birth</label><br>
+            <input type="date" name="Date of birth"><br><br>
+            <label for= "date" aria-required="true">prefered interview time</label><br>
+            <input type="date" name="prefered interview time"><br><br>
+            
+            Registration Date & Time:<br>
+            <input type="datetime-local" name="registration"><br><br>
+            Enrollment Month:<br>
+            <input type="month" name="enrollMonth"><br><br>
+            Academic Week:<br>
+            <input type="week" name="academicWeek"><br><br>
+           
+
+            <label for= "  Gender" aria-required="true">Gender</label><br>
+            <input type="radio" name="Gender" value="M"> Male
+            <input type="radio" name="Gender" value="F"> Female
+            <input type="radio" name="Gender" value="o"> other: <br><br>
+            Courses & skills:<br><br>
+            courses:<br>
+<select name="courses">
+    <option>Computer Science</option>
+    <option>Mathematics</option>
+    <option>Physics</option>
+    <option>Chemistry</option>
+    <option>Biology</option>
+</select><br><br>
+
+Skills (multiple skills):<br>
+<select name="skills">
+    <option>Programming</option>
+    <option>Data Analysis</option>
+    <option>Networking</option>
+    <option>Graphic Design</option>
+    <option>Machine Learning</option>
+</select><br><br>
+Hobbies:<br>
+<input type="checkbox" name="hobbies" value="Reading"> Reading
+<input type="checkbox" name="hobbies" value="Sports"> Sports
+<input type="checkbox" name="hobbies" value="Music"> Music<br><br>
+<label for= "text" aria-required="true">country selection</label><br>
+Country:<br>
+<select name="country">
+    <option>Cameroon</option>
+    <option>Nigeria</option>
+    <option>Ghana</option>
+    <option>Kenya</option>
+    <option>South Africa</option>
+</select><br><br>
+
+Profile Picture:<br>
+<input type="file" name="profilePic" accept="image/*"><br><br>
+
+<label for= "  Gender" aria-required="true">student Bio</label><br><br>
+About You:<br>
+<textarea name="about" rows="4" cols="50" ></textarea><br><br>
+
+            Level of Education:<br>
+            <select>
+                <option>100 Level</option>
+                <option>200 Level</option>
+                <option>300 Level</option>
+                <option>400 Level</option>
+            </select><br><br>
+            <label for= "address" aria-required="true">address</label>
+            <input type="text" name="address"><br><br>
+
+            Submit Selection: <br>
+            <button type="submit">Register</button><br><br>
+            <button type="reset">Clear Form</button> <br><br>
+            <button type="button">Click Me </button>
+            <footer>submit image button</footer>
+
+
+        </form>
+    </body>
+</html>
